@@ -1,25 +1,15 @@
-### Executing in Terminal
+### My Torch
 
-#### Please confirm you are in the following directory:
+#### Has implementations of 
 
-	./HW3/handout
+	mlp, cnn, gru, lstm and sgd, adam, rmsprop
 
-#### To execute the autograder in terminal, please execute the following
+#### To use the functions import mlp() or Conv1d() from appropriate files
 
-	python autograder/hw3_autograder/runner.py
+	from mytorch import 
 
 #### To execute the toy problem autograder in terminal, please execute the following
 
-	python autograder/hw3_autograder/toy_runner.py
+	from mytorch.conv import Conv1d
+	from mytorch.conv import Conv2d
 
-### Submitting to AutoLab
-
-#### Please confirm you are in the following directory:
-
-	./HW3
-
-#### Run
-
-	tar -cvf handin.tar handout/
-
-#### Submit the handin.tar created to AutoLab
